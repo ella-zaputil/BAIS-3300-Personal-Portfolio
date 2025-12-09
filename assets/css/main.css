@@ -1760,6 +1760,33 @@ input, select, textarea {
 
 		}
 
+.project {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+}
+
+.project-content {
+  max-width: 500px;
+}
+
+.project-content h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.project-content p {
+  margin-bottom: 1rem;
+}
+
+
 /* Section/Article */
 
 	section.special, article.special {
