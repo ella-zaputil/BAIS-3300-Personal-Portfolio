@@ -2304,7 +2304,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #333333; !important;
+		color: #333333 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
