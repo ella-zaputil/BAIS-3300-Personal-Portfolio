@@ -1,0 +1,50 @@
+#cookie-popup {
+  font-family: "Source Code Pro", monospace;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 2rem;
+  z-index: 999999 !important;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cookie-popup, 
+#cookie-popup p, 
+#cookie-popup a {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+#cookie-popup p {
+  width: 100% !important;
+  display: block !important;
+  text-align: center !important;
+  margin: 0.5rem 0 !important;
+}
+
+#cookie-popup a:hover {
+  color: lightpink !important;
+  text-decoration: underline;
+}
+
+#accept-cookies {
+  font-family: "Source Code Pro", monospace;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#accept-cookies:hover {
+  background-color: lightpink;
+}
